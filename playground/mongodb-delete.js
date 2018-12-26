@@ -15,7 +15,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', { useNewUrlParser: true
   // db.collection('Todos').deleteOne({text: 'Eat lunch'})
   //   .then(result => console.log(result));
   // fineOneAndDelete
-  db.collection('Todos').findOneAndDelete({completed: false})
-    .then(result => console.log(result));
+  // db.collection('Todos').findOneAndDelete({completed: false})
+  //   .then(result => console.log(result));
   // client.close();
 });
